@@ -11,10 +11,13 @@ function staircase(n) {
         inputLine += symbol;
       }
     }
+    // imprime a linha
     console.log(inputLine);
+    // zera a linha para receber novamente os caracteres do ínicio
     inputLine = '';
+    // decresce o inputPosition para preencher mais um espaço
     inputPosition -= 1;
   }
 }
 
-staircase(4);
+staircase(8);
