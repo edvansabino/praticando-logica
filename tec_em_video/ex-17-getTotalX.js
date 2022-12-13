@@ -55,7 +55,7 @@ function getTotalX(a, b) {
   let finalHolder4 = [];
 
   finalHolder3.forEach((element) => {
-    console.log(element);
+    // console.log(element);
     let count = 0;
 
     finalHolder3.forEach((element2) => {
